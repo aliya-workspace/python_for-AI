@@ -38,6 +38,7 @@ print("after swaping:",a,b)
 #Operators:(special type of symbols we use them to perform any task)
 #e.g a+b*c-5 (3 opperendse.g a(that contain  value),and signs are operators that perform operations on opperends)
 #Types of operators:
+
 #1) Arithmetic operators(+,-,*,/,%,**)
 a=20
 b=10
@@ -46,7 +47,6 @@ print(a-b)
 print(a%b)
 print(a*b)
 print(a**b)
-
 
 c=a*b
 c=a-b
@@ -58,6 +58,47 @@ print(c)
 x=100
 y=200
 print(x<y)
+
+#3)Logical operators:
+# these are between compound expression jis me 2 ya 2 sy ziyada expressions ko combine kiya jata hai
+#Types of Logical opertaors:
+#AND: agar sari expressin ture ho to result ture ho ga (exp1 and ep2 ---> ture)
+#OR: agar 2 me sy aik bhi expression ture ho to result ture ho ga (exp1 or exp2---> ture)
+#Not: opposite answer dey ga yani input ko reverse kar ky output dy ga(  ture--->False or agar false---->ture)
+
+#Practice program:(logical opertaor:)
+#1:
+val1= True
+val2=False
+print("And opertaor is: ",val1 and val2)
+print("OR opertaor is: ",val1 or val2)
+print("NOt opertaor is: ",not val2)
+
+#2:
+a=5
+b=10
+print("And opertaor ",(a>=b) and (a<b))
+print("OR opertaor ",(a>=b) or (a<b))
+print("NOT opertaor ",not(a>=b))
+ 
+#4) Assignment opertaor: (+=,-=,*=,/=,%=,**=)
+#1): this is not advance method
+a=10
+a=a*20
+print("value of a: " ,a)
+#use of assignment operator:
+a=10
+a*=10
+b-=10
+print("value of a: " ,a)
+print("value of a: " ,b)
+
+
+
+ 
+
+
+
 
 
 

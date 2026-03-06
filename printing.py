@@ -14,10 +14,12 @@ print("Aliya Khanam.","Mine roll number is 19")
 print(15)
 
 #Arthimetic operations (+,-,/,=)------>without variable
-print(15+20)
+#multiple line comment:
+"""print(15+20)
 print(15*20)
 print(75-20)
 print(20/4)
+"""
 
 #Character set of python (Letter: A-Z,a-z)---->Case sensitive means A and a are different
 #Number:0 to 9 (python can understand them)
