@@ -5,11 +5,31 @@
 #IMplicit casting: 
 #Internal: Automatically means system do it own
 #it convert smaller data type to larger data type (int(2 byte) to float(4 bytes))
-a=2
+"""a=2
 b=5.7
 sum=a+b
 print(sum)
 print ("sum: ",sum)
+"""
 
 #Excplicit casting:
 #External: means outside programmer will convert data type its a manual converison,forcefull conversion
+#larger to smaller data types 
+
+"""a="10" #string
+b=5 #int
+add=a+b
+print(add)
+"""
+#we can't add or multiply string so now we will forcefully convert it.
+c=int("10")
+d=5
+sum= c+d
+print("sum is: ",sum)
+
+"""
+a="10"
+b=5
+sum=int(a)+b
+print(sum)
+"""
