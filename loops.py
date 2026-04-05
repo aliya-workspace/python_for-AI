@@ -1,5 +1,5 @@
 #loops:
-#repeitition or iteration aik ciz ko baar bar execute  karna hai means same pice of block ko multiple type print karwana 
+#repeitition or iteration aik ciz ko baar bar execute  karna hai means same piece of block ko multiple time print karwana 
 
 #Types of Loop
 #for and while

@@ -48,7 +48,7 @@ print(e)
 #   print("negative")
 
 #multiple if else statments
-marks=(input("Enter marks of students: "))
+"""marks=(input("Enter marks of students: "))
 if marks>=80:
     print("Grade:A")
 elif marks>=70:
@@ -60,7 +60,7 @@ elif marks>=50:
 elif marks>=40:
     print("Grade:E")
 else:
-    print("Fail")
+    print("Fail")"""
 
 
 

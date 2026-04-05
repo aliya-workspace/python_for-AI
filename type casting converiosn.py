@@ -22,10 +22,10 @@ add=a+b
 print(add)
 """
 #we can't add or multiply string so now we will forcefully convert it.
-c=int("10")
+"""c=int("10")
 d=5
 sum= c+d
-print("sum is: ",sum)
+print("sum is: ",sum)"""
 
 """
 a="10"
@@ -33,3 +33,10 @@ b=5
 sum=int(a)+b
 print(sum)
 """
+
+a = 10
+b = 2.5
+c = a * b
+
+print(c)
+print(type(c))
